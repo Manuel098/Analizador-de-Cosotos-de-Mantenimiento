@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Proyectos\\Flutter\\costos_mantenimiento\\build\\app\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "D:\\Proyectos\\Flutter\\Analizador-de-Cosotos-de-Mantenimiento\\build\\app\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\Proyectos\\Flutter\\costos_mantenimiento\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Proyectos\\Flutter\\Analizador-de-Cosotos-de-Mantenimiento\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

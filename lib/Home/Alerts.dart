@@ -74,7 +74,7 @@ class NewAlerts{
           child: Text('Submit'),
           onPressed: (){
             if (_linekey.currentState.validate()) {
-              _tCA=(_nL+_mL)/_tL;
+              _tCA=(_nL-_mL)/_tL;
               _eM=_tCA*_eI;
               print(_eM);
               Navigator.of(context).pop();
@@ -144,7 +144,9 @@ class NewAlerts{
     return AlertDialog(
       elevation: 5.0,
       title: Text('Resultados'),
-      content: Text('El salario mensual mensual es de \$ ${_cM} y es nesesario trabajar ${_eM} meses'),
+      content: Text(
+        'El salario mensual mensual es de \n\$ ${_cM.round()} y es nesesario trabajar ${_eM.round()} meses.'
+      ),
     );
   });
 }

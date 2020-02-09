@@ -1,6 +1,6 @@
 # costos_mantenimiento
 
-A new Flutter project.
+This is a project for the approximate calculation of salary in the software maintenance stage
 
 ## Getting Started
 
